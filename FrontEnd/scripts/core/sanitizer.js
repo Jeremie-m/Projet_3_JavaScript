@@ -2,7 +2,6 @@
  * Module de sanitization des entrées utilisateur
  */
 
-import DOMPurify from '../../node_modules/dompurify/dist/purify.es.mjs'; // Import de DOMPurify, dépendance gérant les sanitizations
 
 export const sanitizer = {
     /**
